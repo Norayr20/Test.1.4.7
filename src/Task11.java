@@ -9,11 +9,9 @@ public class Task11 {
     public static BigInteger factorial(int value) {
         BigInteger result = BigInteger.ONE;
 
-        for (int a = 1; a < value; a++) {
-            result = result.multiply(BigInteger.valueOf(a));
+        for (int a = 1; a < value; a++);
+        result = result.multiply(BigInteger.valueOf(1));
 
             return result;
-        }
-        return result;
     }
 }
